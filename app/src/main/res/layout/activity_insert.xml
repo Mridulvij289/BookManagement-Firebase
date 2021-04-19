@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tTitle"
+        android:hint="Title"
+        android:layout_margin="20sp"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tAuthor"
+        android:hint="Author"
+        android:layout_below="@+id/tTitle"
+        android:layout_margin="20sp"></EditText>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:id="@+id/tBookImage"
+        android:layout_marginRight="100dp"
+        android:hint="BookImage"
+        android:layout_below="@+id/tAuthor"
+        android:layout_margin="20sp"></ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:id="@+id/bchoose"
+        android:layout_below="@id/tBookImage"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_marginTop="20sp"
+        android:id="@+id/badd"
+        android:layout_below="@+id/bchoose"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/white"
+        ></Button>
+
+</RelativeLayout>

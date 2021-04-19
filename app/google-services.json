@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015509041315",
+    "project_id": "bookmanagement-firebase",
+    "storage_bucket": "bookmanagement-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015509041315:android:0609543f3682ed7ee27f16",
+        "android_client_info": {
+          "package_name": "com.example.bookmanagement_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015509041315-on60h8k3vice61267ihapj85gks65g77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVJC4ymhR9yAWE1tRXJmg0UKnV-psp0iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015509041315-on60h8k3vice61267ihapj85gks65g77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
